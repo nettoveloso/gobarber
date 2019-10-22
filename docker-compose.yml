@@ -1,0 +1,11 @@
+version: '3.4'
+
+services:
+  database:
+    image: postgres:11
+    container_name: database_pg
+    restart: always
+    environment:
+      - POSTGRES_PASSWORD=docker
+    ports:
+      - "5432:5432"
