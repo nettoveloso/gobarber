@@ -9,3 +9,11 @@ Gerenciamento de uma Barbearia.
 - NodeJs
 - React
 - React Native
+- Docker (Postgres)
+
+### Dependencias
+- Yarn
+- Node version v10.15.3 ou superior
+- Para instalar digita yarn no terminal, você tem que está dentro da pasta do projeto.
+
+### Bora Codar!
