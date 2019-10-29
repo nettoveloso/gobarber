@@ -3,7 +3,7 @@ version: '3.4'
 services:
   database:
     image: postgres:11
-    container_name: database_pg
+    container_name: database_gobarber
     #restart: always
     environment:
       - POSTGRES_PASSWORD=docker
@@ -15,3 +15,8 @@ services:
     #restart: always
     ports:
       - "27017:27017"
+  redis:
+    image: redis:alpine
+    container_name: redis_gobarber
+    ports:
+      - "6379:6379"
