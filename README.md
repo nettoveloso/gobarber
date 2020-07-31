@@ -1,5 +1,5 @@
 # GoBarber
-Projeto de Estudo do GoStack 9 da RocketSeat
+Projeto de Estudo do GoStack 9 da RocketSeat, utilizado Javascript
 
 ## :rocket: Sobre o projeto
 
